@@ -19,6 +19,7 @@
       .pricing-container {
         display: flex;
         gap: 10px;
+        height: 100vh;
         justify-content: center;
         align-items: center;
       }
@@ -29,6 +30,9 @@
         background-color: rgb(246, 246, 243);
         border-radius: 3px;
         
+      }
+      .pricing-plan:hover {
+        background-color: rgba(242,242,241);
       }
       .plan-title {
         font-weight: bold;
@@ -57,12 +61,11 @@
           flex-direction: column;
           gap: 10px;
           align-items: center; 
+          justify-content: start;
         }
         .pricing-plan {
           min-width: 300px;
           flex-basis: 0px;
-          flex-shrink: 1;
-          
         }
       }
     </style>
@@ -97,6 +100,12 @@
           <li>✅ 100GB Storage</li>
           <li>✅ 10 Users</li>
           <li>✅ 24/7 Support</li>
+        </ul>
+        <button class="plan-button">Sign Up</button>
+      </div>
+    </div>
+  </body>
+</html>
         </ul>
         <button class="plan-button">Sign Up</button>
       </div>
